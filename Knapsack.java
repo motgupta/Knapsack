@@ -5,11 +5,14 @@ public class Knapsack {
 
 	
 	public static void main(String[] args) {
-		/*int[] weight = { 1, 3, 4, 5 };
-		int[] value = { 1, 4, 5, 7 };//4,13,14,15,*/
-		
+	
 		int[] weight = {60, 30, 55, 30, 70, 48};
 		int[] value = {60, 30, 55, 30, 70, 48};
+		
+		// in actual 2 dimensional knapsack problem there will be some value
+		// associate with wieight/inputs like below
+		// int[] value = { 1, 4, 5, 7, 5, 8 }
+		
 		int targetSum = 180;
 
 		knapsack(weight, value, targetSum);
