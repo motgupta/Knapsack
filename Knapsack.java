@@ -75,7 +75,7 @@ public class Knapsack {
 		findActualWeightIndex(weightValMatrix, weight.length, targetSum, finallySelectedWeightIndex, weight);
 		
 		for(int index:finallySelectedWeightIndex){
-			System.out.println("weight is " + weight[index-1] + " value is "+ value[index-1]);
+			System.out.println("weight is " + weight[index-1] + " value is " + value[index-1]);
 		}
 		
 
